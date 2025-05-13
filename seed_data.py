@@ -30,6 +30,7 @@ def generate_invoice():
     quantity = random.randint(1, 50)
     unit = random.choice(units)
     rate = round(random.uniform(100, 5000), 2)
+    status = 
     amount = round(quantity * rate, 2)
     amount_in_words = fake.numerify("Rupees Only") # Placeholder, needs a proper conversion
     gstin = fake.numerify(random.choice(['07', '27']) + 'ABCDE' + '#####F1Z' + random.choice(['5', '6']))

@@ -1,6 +1,8 @@
-fastapi[all]
-sqlalchemy
+fastapi[all]>=0.95.2,<0.96.0
+sqlalchemy>=2.0.40,<2.1.0
 aiosqlite
 pandas
 prophet
-uvicorn
+uvicorn>=0.34.2,<0.35.0
+anyio==4.9.0
+asyncpg==0.29.0
